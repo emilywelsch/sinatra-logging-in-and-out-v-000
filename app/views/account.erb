@@ -6,7 +6,11 @@
     <link rel="stylesheet" href="stylesheets/bootstrap.css" type="text/css">  
   </head>
   <body id="page-top">
-    
+    <%if @user
+      session[:user_id] = @user.id%>
+      Welcome, <%=user.username%>!
+      Account Balance: <%=user.balance%>
+    <% end %>
 
   </body>
 </html>
