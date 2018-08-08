@@ -7,11 +7,11 @@ GIT
 GEM
   remote: http://rubygems.org/
   specs:
-    activemodel (5.2.1)
-      activesupport (= 5.2.1)
-    activerecord (5.2.1)
-      activemodel (= 5.2.1)
-      activesupport (= 5.2.1)
+    activemodel (5.1.5)
+      activesupport (= 5.1.5)
+    activerecord (5.1.5)
+      activemodel (= 5.1.5)
+      activesupport (= 5.1.5)
       arel (>= 9.0)
     activesupport (5.2.1)
       concurrent-ruby (~> 1.0, >= 1.0.2)
